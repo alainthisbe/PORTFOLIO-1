@@ -1,0 +1,468 @@
+html body {
+  width: 100vw;
+}
+
+html body header nav {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+}
+
+html body header nav a {
+  width: 20%;
+}
+
+html body header nav ul {
+  width: 80%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'warnesregular';
+  font-size: 200%;
+}
+
+html body header nav ul li:hover {
+  color: brown;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+html body #profil {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: cadetblue;
+}
+
+html body #profil h1 {
+  font-family: 'warnesregular';
+  font-size: 200%;
+  margin-top: 200px;
+  text-align: center;
+}
+
+html body #profil p {
+  font-family: 'warnesregular';
+  font-size: 200%;
+  text-align: center;
+}
+
+html body #profil a {
+  text-decoration: none;
+  font-family: 'warnesregular';
+  font-size: 120%;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+}
+
+html body #profil a:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+html body #profil #conteneur {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100vw;
+}
+
+html body #profil #conteneur .profil-detail {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #profil #conteneur .profil-detail img {
+  border: solid 3px black;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+html body #technologies {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: white;
+}
+
+html body #technologies h1 {
+  font-family: 'warnesregular';
+  font-size: 220%;
+  text-align: center;
+}
+
+html body #technologies #conteneur2 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+html body #technologies #conteneur2 .technologies-detail {
+  width: 19vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #technologies #conteneur2 .technologies-detail img {
+  border: solid 3px white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+html body #competences {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: cadetblue;
+}
+
+html body #competences h1 {
+  font-family: 'warnesregular';
+  font-size: 220%;
+  text-align: center;
+}
+
+html body #competences #conteneur3 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+html body #competences #conteneur3 .competences-detail {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body #competences #conteneur3 .competences-detail img {
+  border: solid 3px white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+html body #realisations {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+html body #realisations h1 {
+  font-family: 'warnesregular';
+  font-size: 220%;
+  text-align: center;
+}
+
+html body #realisations #conteneur4 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+html body #realisations #conteneur4 .realisation {
+  width: 17vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  border: solid 4px black;
+}
+
+html body #realisations #conteneur4 .realisation img {
+  border: solid 3px white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+html body #localisation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 30vh;
+}
+
+html body #localisation #niort {
+  width: 25vw;
+  background-image: url(./images/niort.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'roboto';
+  color: black;
+  font-size: 120%;
+}
+
+html body #localisation #niort p {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+}
+
+html body #localisation iframe {
+  width: 75vw;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body footer {
+  width: 100vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+html body footer h2 {
+  font-family: 'warnesregular';
+  color: white;
+}
+
+html body footer a {
+  font-family: 'slabo';
+  text-decoration: none;
+  color: white;
+}
+
+html body footer a:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/*********************** RESPONSIVE ******************************/
+/***********************          ********************************/
+/***********************          ********************************/
+/***********************          ********************************/
+@media screen and (max-width: 1024px) {
+  nav a img {
+    height: 130px;
+    width: 130px;
+  }
+  ul {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #profil #conteneur {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #technologies #conteneur2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #technologies #conteneur2 .technologies-detail {
+    height: 15vh;
+    width: 100vw;
+  }
+  #technologies #conteneur2 .technologies-detail img {
+    height: 100px;
+    width: 160px;
+  }
+  #competences #conteneur3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #competences #conteneur3 .competences-detail {
+    height: 30vh;
+    width: 100vw;
+  }
+  #competences #conteneur3 .competences-detail img {
+    height: 200px;
+    width: 330px;
+  }
+  #realisations #conteneur4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #realisations #conteneur4 .realisation {
+    height: 20vh;
+    width: 100vw;
+  }
+  #realisations #conteneur4 .realisation img {
+    height: 140px;
+    width: 180px;
+  }
+}
+
+/*********************************************************************/
+@media screen and (min-width: 10px) and (max-width: 500px) {
+  html body header nav ul li a {
+    font-family: 'warnesregular';
+    font-size: 100%;
+  }
+  html body #profil h1 {
+    font-family: 'warnesregular';
+    font-size: 100%;
+  }
+  html body #profil p {
+    font-family: 'warnesregular';
+    font-size: 100%;
+  }
+}
+
+/***********************************************************/
+@media screen and (min-width: 500px) and (max-width: 861px) {
+  html body header nav ul li a {
+    font-family: 'warnesregular';
+    font-size: 130%;
+  }
+  html body #profil h1 {
+    font-family: 'warnesregular';
+    font-size: 130%;
+  }
+  html body #profil p {
+    font-family: 'warnesregular';
+    font-size: 130%;
+  }
+}
+
+/***********************************************************/
+@media screen and (min-width: 862px) and (max-width: 1204px) {
+  html body header nav ul li a {
+    font-family: 'warnesregular';
+    font-size: 130%;
+  }
+  html body #profil h1 {
+    font-family: 'warnesregular';
+    font-size: 130%;
+  }
+  html body #profil p {
+    font-family: 'warnesregular';
+    font-size: 130%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

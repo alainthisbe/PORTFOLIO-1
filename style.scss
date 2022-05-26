@@ -1,0 +1,514 @@
+html {
+
+    body {
+
+        
+        width: 100vw;
+
+        header {
+
+            nav {
+
+                
+                position: fixed;
+                top: 0;
+                background-color: black;
+                display: flex;
+                width: 100vw;
+                
+
+                a {
+
+                    width: 20%;
+
+                }
+
+                ul {
+
+                    width: 80%;
+
+                    list-style-type: none;
+                    
+                    display: flex;
+
+
+                    justify-content: space-around;
+                    align-items: center;
+                    
+
+                    li {
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'warnesregular';
+                            font-size: 200%;
+
+                        }
+
+                    }
+
+                    li:hover {
+
+                        color: brown;
+                        transition: 0.3s;
+                        transform: scale(1.20);
+
+                    }
+
+                }
+
+            }
+        }
+
+        #profil {
+
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: cadetblue;
+
+
+            h1 {
+
+                font-family: 'warnesregular';
+                font-size: 200%;
+                margin-top: 200px;
+                text-align: center;
+            }
+
+            p {
+
+                
+                font-family: 'warnesregular';
+                font-size: 200%;
+                text-align: center;
+
+            }
+
+            a {
+
+                text-decoration: none;
+                font-family: 'warnesregular';
+                font-size: 120%;
+                background-color: black;
+                border-radius: 20px;
+                color: white;
+                padding: 10px;
+
+            }
+
+            a:hover {
+
+                transition: 0.3s;
+                transform: scale(1.2);
+            }
+
+            #conteneur {
+
+                height: 100vh;
+                display: flex;
+                justify-content: space-evenly;
+                width: 100vw;
+
+                .profil-detail {
+
+                    width: 50vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+
+                    img {
+
+                        border: solid 3px black;
+                        border-radius: 20px;
+                        padding: 5px;
+                        
+                    }
+
+                }
+
+            }
+
+        }
+
+        #technologies {
+
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: black;
+            color: white;
+
+            h1 {
+
+                font-family: 'warnesregular';
+                font-size: 220%;
+                text-align: center;
+            }
+
+            #conteneur2 {
+
+                height: 100vh;
+                display: flex;
+                justify-content: space-around;
+
+                .technologies-detail {
+
+                    width: 19vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+
+                        border: solid 3px white;
+                        border-radius: 20px;
+                        padding: 5px;
+
+                    }
+
+                }
+
+            }
+        }
+
+        #competences {
+
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            background-color: cadetblue;
+
+            h1 {
+
+                font-family: 'warnesregular';
+                font-size: 220%;
+                text-align: center;
+            }
+
+            #conteneur3 {
+
+                height: 100vh;
+                display: flex;
+                justify-content: space-around;
+
+                .competences-detail {
+
+                    width: 30vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+
+                        border: solid 3px white;
+                        border-radius: 20px;
+                        padding: 5px;
+
+                    }
+                }
+
+            }
+
+        }
+
+        #realisations {
+
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            color: white;
+
+            h1 {
+
+                font-family: 'warnesregular';
+                font-size: 220%;
+                text-align: center;
+            }
+
+            #conteneur4 {
+
+                height: 100vh;
+                display: flex;
+                justify-content: space-around;
+
+                .realisation {
+
+                    width: 17vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    border-radius: 30px;
+                    border: solid 4px black;
+
+                    img {
+
+                        border: solid 3px white;
+                        border-radius: 20px;
+                        padding: 5px;
+
+                    }
+                }
+            }
+
+        }
+
+
+        #localisation {
+
+            display: flex;
+            width: 100vw;
+            height: 30vh;
+
+            #niort {
+
+                width: 25vw;
+                background-image: url(./images/niort.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+
+                font-family: 'roboto';
+                color: black;
+
+                font-size: 120%;
+
+                p {
+                    color: white;
+                    text-align: center;
+                    font-weight: bold;
+                    margin: auto;
+
+                }
+
+            }
+
+            iframe {
+
+                width: 75vw;
+                height: 30vh;
+                display: flex;
+
+            }
+
+
+        }
+
+        footer {
+
+            width: 100vw;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: black;
+
+            h2 {
+                font-family: 'warnesregular';
+                color: white;
+
+            }
+
+            a {
+                font-family: 'slabo';
+                text-decoration: none;
+                color: white;
+
+            }
+
+            a:hover {
+
+                transition: 0.3s;
+                transform: scale(1.20);
+
+            }
+
+        }
+
+    }
+}
+
+/*********************** RESPONSIVE ******************************/
+/***********************          ********************************/
+
+/***********************          ********************************/
+
+
+
+/***********************          ********************************/
+
+@media screen and (max-width: 1024px) {
+
+    nav a img {
+
+        height: 130px;
+        width: 130px;
+        
+    }
+
+    
+
+    ul {
+
+        flex-direction: column !important;
+    }
+
+    #profil #conteneur {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #technologies #conteneur2 {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #technologies #conteneur2 .technologies-detail {
+
+        height: 15vh;
+        width: 100vw;
+
+    }
+
+    #technologies #conteneur2 .technologies-detail img {
+
+        height: 100px;
+        width: 160px;
+
+    }
+
+    #competences #conteneur3 {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #competences #conteneur3 .competences-detail {
+
+        height: 30vh;
+        width: 100vw;
+    }
+
+    #competences #conteneur3 .competences-detail img {
+
+        height: 200px;
+        width: 330px;
+
+    }
+
+
+    #realisations #conteneur4 {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #realisations #conteneur4 .realisation {
+
+        height: 20vh;
+        width: 100vw;
+    }
+
+    #realisations #conteneur4 .realisation img {
+
+        height: 140px;
+        width: 180px;
+    }
+
+}
+
+/*********************************************************************/
+@media screen and (min-width: 10px) and (max-width: 500px){
+  
+
+    html body header nav ul li a {
+
+        font-family: 'warnesregular';
+        font-size: 100%;
+
+    }
+
+    html body #profil h1 {
+
+        font-family: 'warnesregular';
+        font-size: 100%;
+
+    }
+
+    html body #profil p {
+
+        font-family: 'warnesregular';
+        font-size: 100%;
+        
+
+    }
+
+}   
+
+
+/***********************************************************/
+
+@media screen  and (min-width: 500px) and (max-width: 861px) {
+  
+
+    html body header nav ul li a {
+        
+        font-family: 'warnesregular';
+        font-size: 130%;
+
+    }
+
+    html body #profil h1 {
+
+        font-family: 'warnesregular';
+        font-size: 130%;
+
+    }
+
+    html body #profil p {
+
+        font-family: 'warnesregular';
+        font-size: 130%;
+        
+    }
+
+}
+
+/***********************************************************/
+
+@media screen  and (min-width: 862px) and (max-width: 1204px) {
+  
+
+    html body header nav ul li a {
+        
+        font-family: 'warnesregular';
+        font-size: 130%;
+
+    }
+
+    html body #profil h1 {
+
+        font-family: 'warnesregular';
+        font-size: 130%;
+
+    }
+
+    html body #profil p {
+
+        font-family: 'warnesregular';
+        font-size: 130%;
+        
+    }
+
+}
